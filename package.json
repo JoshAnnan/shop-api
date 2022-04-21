@@ -2,13 +2,15 @@
   "name": "shop-api",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Joshua Annan-Takyi",
+  "author": "Blessing Annan-Takyi",
   "license": "MIT",
   "scripts": {
     "start": "nodemon index.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.3",
+    "joi": "^17.6.0",
     "mongoose": "^6.3.0"
   }
 }
